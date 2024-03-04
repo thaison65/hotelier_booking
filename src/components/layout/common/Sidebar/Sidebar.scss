@@ -1,0 +1,18 @@
+nav {
+    .link-page {
+        text-decoration: none;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 1rem;
+        color: #fff;
+
+        .color-icon {
+            color: #fff;
+        }
+    }
+    .active {
+        background-color: #01184a;
+        border-radius: 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+}
