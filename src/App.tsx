@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { isLoggedInSelector, profileUserHotelSelector } from '~/redux/selector';
+import { isLoggedInSelector } from '~/redux/selector';
 import { publicRoutes, privateRoutes } from '~/routes';
 import { DefaultLayout } from '~/components/layout';
 import { AppDispatch } from './redux/store';
